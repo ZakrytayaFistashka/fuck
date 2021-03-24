@@ -1,0 +1,16 @@
+{
+  "server": {
+    "port": 4001,
+    "static": "./static"
+  },
+  "db": {
+    "host": "mongodb://localhost",
+    "port": 27017,
+    "name": "hi-dev"
+  },
+  "passport": {
+    "fb_callback": "https://develop.hi.academy/api/v1/fb/callback",
+    "vk_callback": "https://develop.hi.academy/api/v1/vk/callback",
+    "google_callback": "https://develop.hi.academy/api/v1/google/callback"
+  }
+}
